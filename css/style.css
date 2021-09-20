@@ -159,8 +159,13 @@ article h3 {
 	font-size: 1.5em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
 	font-weight: normal; /*フォントの太さ指定(normalは標準)*/
 	margin-bottom: 10px; /*ボックス外側下の余白*/
+	margin-top: 20px; /*ボックス外側上の余白*/
 }
 article li, p {
+	font-size: 1.3em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
+	margin-left: 50px; /*ボックス外側左の余白*/
+}
+article pre {
 	font-size: 1.3em; /*フォントサイズ指定(emはフォントの高さを１とした相対指定)*/
 	margin-left: 50px; /*ボックス外側左の余白*/
 }
